@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'home',
     'sslserver',
+    'django_twilio',
+
 ]
 
 MIDDLEWARE = [
@@ -121,3 +123,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+TWILIO_ACCOUNT_SID = 'AC4dc4317e4b4a3036ef8aeb33d2f1c192'
+TWILIO_AUTH_TOKEN = '80f535688da98d7bfe54853379238bab'
+TWILIO_PHONE_NUMBER= '+16474960347'
