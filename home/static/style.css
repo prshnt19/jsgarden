@@ -734,7 +734,7 @@ input:focus {
   .welcome-slides:hover .owl-prev,
   .welcome-slides:hover .owl-next, .welcome-slides:focus .owl-prev,
   .welcome-slides:focus .owl-next {
-    opacity: 1;
+    opacity: 0;
     visibility: visible; }
 
 .single-welcome-slide {
