@@ -7,6 +7,8 @@ from .forms import ContactForm,ContactusForm
 from twilio.rest import Client
 from django.conf import settings
 from django.contrib import messages
+from django.core.mail import send_mail
+from django.conf import settings
 
 def index(request):
     if request.method == 'POST':
@@ -29,13 +31,19 @@ def index(request):
             final = final + 'Package-'+ package+'\n'+'No. of Guests-'+no_of_guests + '\n'+'Date:-'+date + '\n'
             final = final +'Message-' + message
 
-            print(final)
+
 
             client = Client(settings.TWILIO_ACCOUNT_SID, settings.TWILIO_AUTH_TOKEN)
             response = client.messages.create(
                 body=final,
                 to='+919919098817', from_=settings.TWILIO_PHONE_NUMBER)
-            print (form)
+
+            subject = 'Enquiry on Jsgardens.in'
+
+            email_from = settings.EMAIL_HOST_USER
+            recipient_list = ['abhi24061997@gmail.com']
+            send_mail(subject, final, email_from, recipient_list)
+
             return render(request, "success.html")
 
     return render(request, "index.html")
@@ -57,7 +65,16 @@ def contactus(request):
             response = client.messages.create(
                 body=form_query,
                 to='+919919098817', from_=settings.TWILIO_PHONE_NUMBER)
-            print (form)
+
+            subject = 'Enquiry on Jsgardens.in'
+
+            email_from = settings.EMAIL_HOST_USER
+            recipient_list = ['abhi24061997@gmail.com']
+            send_mail(subject, form_query, email_from, recipient_list)
+
+
+
+
             return render(request, "success.html")
 
     return render(request, "contact.html")

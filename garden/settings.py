@@ -105,6 +105,8 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 
+#
+
 # Internationalization
 # https://docs.djangoproject.com/en/2.1/topics/i18n/
 
@@ -128,3 +130,10 @@ STATIC_URL = '/static/'
 TWILIO_ACCOUNT_SID = 'AC4dc4317e4b4a3036ef8aeb33d2f1c192'
 TWILIO_AUTH_TOKEN = '80f535688da98d7bfe54853379238bab'
 TWILIO_PHONE_NUMBER= '+16474960347'
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_USE_SSL=True
+EMAIL_PORT = 465
+EMAIL_HOST_USER = 'jsgardens01@gmail.com'
+EMAIL_HOST_PASSWORD = 'jsgardens2019'
