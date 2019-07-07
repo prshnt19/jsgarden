@@ -29,13 +29,13 @@ def index(request):
             final = final + 'Package-'+ package+'\n'+'No. of Guests-'+no_of_guests + '\n'+'Date:-'+date + '\n'
             final = final +'Message-' + message
 
-            # print(final)
+            print(final)
 
             client = Client(settings.TWILIO_ACCOUNT_SID, settings.TWILIO_AUTH_TOKEN)
             response = client.messages.create(
                 body=final,
                 to='+919919098817', from_=settings.TWILIO_PHONE_NUMBER)
-            # print (form)
+            print (form)
             return render(request, "success.html")
 
     return render(request, "index.html")

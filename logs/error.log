@@ -1,1 +1,38 @@
 [Sat Jul 06 11:00:21.215848 2019] [wsgi:error] [pid 12133:tid 140553054496512] [remote 27.56.244.217:15486] Not Found: /room.html
+[Sat Jul 06 11:33:21.795705 2019] [wsgi:error] [pid 12133:tid 140553138423552] [remote 171.76.216.113:15239] Not Found: /favicon.ico
+[Sat Jul 06 12:08:00.652391 2019] [wsgi:error] [pid 12133:tid 140553138423552] [remote 42.111.28.68:29797] Not Found: /index.html
+[Sat Jul 06 12:08:01.432364 2019] [wsgi:error] [pid 12133:tid 140553054496512] [remote 42.111.28.68:29797] Not Found: /favicon.ico
+[Sun Jul 07 06:26:30.909679 2019] [wsgi:error] [pid 25072:tid 140553138423552] [remote 171.76.135.253:28154] Name-hh
+[Sun Jul 07 06:26:30.909738 2019] [wsgi:error] [pid 25072:tid 140553138423552] [remote 171.76.135.253:28154] Contact Number-7777777777
+[Sun Jul 07 06:26:30.909742 2019] [wsgi:error] [pid 25072:tid 140553138423552] [remote 171.76.135.253:28154] Email-
+[Sun Jul 07 06:26:30.909746 2019] [wsgi:error] [pid 25072:tid 140553138423552] [remote 171.76.135.253:28154] Package-silver
+[Sun Jul 07 06:26:30.909750 2019] [wsgi:error] [pid 25072:tid 140553138423552] [remote 171.76.135.253:28154] No. of Guests-22
+[Sun Jul 07 06:26:30.909753 2019] [wsgi:error] [pid 25072:tid 140553138423552] [remote 171.76.135.253:28154] Date:-2019-07-17
+[Sun Jul 07 06:26:30.909757 2019] [wsgi:error] [pid 25072:tid 140553138423552] [remote 171.76.135.253:28154] Message-nn
+[Sun Jul 07 06:26:30.909764 2019] [wsgi:error] [pid 25072:tid 140553138423552] [remote 171.76.135.253:28154] 
+[Sun Jul 07 06:26:33.263649 2019] [wsgi:error] [pid 25072:tid 140553138423552] [remote 171.76.135.253:28154] <tr><th><label for="id_name">Name:</label></th><td><input type="text" name="name" value="hh" maxlength="100" required id="id_name"></td></tr>
+[Sun Jul 07 06:26:33.263700 2019] [wsgi:error] [pid 25072:tid 140553138423552] [remote 171.76.135.253:28154] <tr><th><label for="id_contact">Contact:</label></th><td><input type="number" name="contact" value="7777777777" required id="id_contact"></td></tr>
+[Sun Jul 07 06:26:33.263707 2019] [wsgi:error] [pid 25072:tid 140553138423552] [remote 171.76.135.253:28154] <tr><th><label for="id_no_of_guests">No of guests:</label></th><td><input type="number" name="no_of_guests" value="22" required id="id_no_of_guests"></td></tr>
+[Sun Jul 07 06:26:33.263711 2019] [wsgi:error] [pid 25072:tid 140553138423552] [remote 171.76.135.253:28154] <tr><th><label for="id_eventdate">Eventdate:</label></th><td><input type="text" name="eventdate" value="2019-07-17" required id="id_eventdate"></td></tr>
+[Sun Jul 07 06:26:33.263717 2019] [wsgi:error] [pid 25072:tid 140553138423552] [remote 171.76.135.253:28154] <tr><th><label for="id_email">Email:</label></th><td><input type="email" name="email" id="id_email"></td></tr>
+[Sun Jul 07 06:26:33.263721 2019] [wsgi:error] [pid 25072:tid 140553138423552] [remote 171.76.135.253:28154] <tr><th><label for="id_package">Package:</label></th><td><input type="text" name="package" value="silver" required id="id_package"></td></tr>
+[Sun Jul 07 06:26:33.263725 2019] [wsgi:error] [pid 25072:tid 140553138423552] [remote 171.76.135.253:28154] <tr><th><label for="id_message">Message:</label></th><td><textarea name="message" cols="40" rows="10" id="id_message">
+[Sun Jul 07 06:26:33.263731 2019] [wsgi:error] [pid 25072:tid 140553138423552] [remote 171.76.135.253:28154] nn</textarea></td></tr>
+[Sun Jul 07 06:26:33.263738 2019] [wsgi:error] [pid 25072:tid 140553138423552] [remote 171.76.135.253:28154] 
+[Sun Jul 07 06:28:21.282962 2019] [wsgi:error] [pid 25072:tid 140553138423552] [remote 171.76.135.253:28245] Name-hhvvfvfvf
+[Sun Jul 07 06:28:21.283021 2019] [wsgi:error] [pid 25072:tid 140553138423552] [remote 171.76.135.253:28245] Contact Number-7777777777
+[Sun Jul 07 06:28:21.283025 2019] [wsgi:error] [pid 25072:tid 140553138423552] [remote 171.76.135.253:28245] Email-
+[Sun Jul 07 06:28:21.283029 2019] [wsgi:error] [pid 25072:tid 140553138423552] [remote 171.76.135.253:28245] Package-silver
+[Sun Jul 07 06:28:21.283032 2019] [wsgi:error] [pid 25072:tid 140553138423552] [remote 171.76.135.253:28245] No. of Guests-22
+[Sun Jul 07 06:28:21.283065 2019] [wsgi:error] [pid 25072:tid 140553138423552] [remote 171.76.135.253:28245] Date:-2019-07-17
+[Sun Jul 07 06:28:21.283070 2019] [wsgi:error] [pid 25072:tid 140553138423552] [remote 171.76.135.253:28245] Message-hnfnfnhfnn
+[Sun Jul 07 06:28:21.283076 2019] [wsgi:error] [pid 25072:tid 140553138423552] [remote 171.76.135.253:28245] 
+[Sun Jul 07 06:28:22.728329 2019] [wsgi:error] [pid 25072:tid 140553138423552] [remote 171.76.135.253:28245] <tr><th><label for="id_name">Name:</label></th><td><input type="text" name="name" value="hhvvfvfvf" maxlength="100" required id="id_name"></td></tr>
+[Sun Jul 07 06:28:22.728382 2019] [wsgi:error] [pid 25072:tid 140553138423552] [remote 171.76.135.253:28245] <tr><th><label for="id_contact">Contact:</label></th><td><input type="number" name="contact" value="7777777777" required id="id_contact"></td></tr>
+[Sun Jul 07 06:28:22.728388 2019] [wsgi:error] [pid 25072:tid 140553138423552] [remote 171.76.135.253:28245] <tr><th><label for="id_no_of_guests">No of guests:</label></th><td><input type="number" name="no_of_guests" value="22" required id="id_no_of_guests"></td></tr>
+[Sun Jul 07 06:28:22.728392 2019] [wsgi:error] [pid 25072:tid 140553138423552] [remote 171.76.135.253:28245] <tr><th><label for="id_eventdate">Eventdate:</label></th><td><input type="text" name="eventdate" value="2019-07-17" required id="id_eventdate"></td></tr>
+[Sun Jul 07 06:28:22.728396 2019] [wsgi:error] [pid 25072:tid 140553138423552] [remote 171.76.135.253:28245] <tr><th><label for="id_email">Email:</label></th><td><input type="email" name="email" id="id_email"></td></tr>
+[Sun Jul 07 06:28:22.728400 2019] [wsgi:error] [pid 25072:tid 140553138423552] [remote 171.76.135.253:28245] <tr><th><label for="id_package">Package:</label></th><td><input type="text" name="package" value="silver" required id="id_package"></td></tr>
+[Sun Jul 07 06:28:22.728404 2019] [wsgi:error] [pid 25072:tid 140553138423552] [remote 171.76.135.253:28245] <tr><th><label for="id_message">Message:</label></th><td><textarea name="message" cols="40" rows="10" id="id_message">
+[Sun Jul 07 06:28:22.728410 2019] [wsgi:error] [pid 25072:tid 140553138423552] [remote 171.76.135.253:28245] hnfnfnhfnn</textarea></td></tr>
+[Sun Jul 07 06:28:22.728417 2019] [wsgi:error] [pid 25072:tid 140553138423552] [remote 171.76.135.253:28245] 
