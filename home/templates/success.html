@@ -2,12 +2,28 @@
 <html lang="en">
 
 <head>
-     {% load static %}
+    {% load static %}
+    <script>
+        function myphonealert() {
+            alert("9540-48-2228 / 9540-48-2229");
+        }
+    </script>
 
+    <script>
+        function myemailalert() {
+            alert("jsgardens01@gmail.com");
+        }
+    </script>
     <meta charset="UTF-8">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css">
 
     <!-- Title -->
     <title>JS Gardens</title>
@@ -18,124 +34,215 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="{% static "style.css" %}">
 
+    <style>
+        .container.gallery-container {
+            background-color: #fff;
+            color: #35373a;
+            min-height: 80vh;
+            padding: 30px 50px;
+        }
+
+        .gallery-container h1 {
+            text-align: center;
+            margin-top: 50px;
+            font-family: 'Droid Sans', sans-serif;
+            font-weight: bold;
+        }
+
+        .gallery-container p.page-description {
+            text-align: center;
+            margin: 25px auto;
+            font-size: 18px;
+            color: #999;
+        }
+
+        .tz-gallery {
+            padding: 40px;
+        }
+
+        /* Override bootstrap column paddings */
+        .tz-gallery .row > div {
+            padding: 2px;
+        }
+
+        .tz-gallery .lightbox img {
+            width: 100%;
+            border-radius: 0;
+            position: relative;
+        }
+
+        .tz-gallery .lightbox:before {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -13px;
+            margin-left: -13px;
+            opacity: 0;
+            color: #fff;
+            font-size: 26px;
+            font-family: 'Glyphicons Halflings';
+            content: '\e003';
+            pointer-events: none;
+            z-index: 9000;
+            transition: 0.4s;
+        }
+
+
+        .tz-gallery .lightbox:after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            background-color: rgba(46, 132, 206, 0.7);
+            content: '';
+            transition: 0.4s;
+        }
+
+        .tz-gallery .lightbox:hover:after,
+        .tz-gallery .lightbox:hover:before {
+            opacity: 1;
+        }
+
+        .baguetteBox-button {
+            background-color: transparent !important;
+        }
+
+        @media(max-width: 768px) {
+            body {
+                padding: 0;
+            }
+        }
+    </style>
+
 </head>
 
 <body>
-    <!-- Preloader -->
-    <div id="preloader">
-        <div class="loader"></div>
+<!-- Preloader -->
+<div id="preloader">
+    <div class="loader"></div>
+</div>
+<!-- /Preloader -->
+
+<!-- Header Area Start -->
+<header class="header-area">
+    <!-- Search Form -->
+    <div class="search-form d-flex align-items-center">
+        <div class="container">
+            <form action="index.html" method="get">
+                <input type="search" name="search-form-input" id="searchFormInput" placeholder="Type your keyword ...">
+                <button type="submit"><i class="icon_search"></i></button>
+            </form>
+        </div>
     </div>
-    <!-- /Preloader -->
 
-    <!-- Header Area Start -->
-    <header class="header-area">
-        <!-- Search Form -->
-        <div class="search-form d-flex align-items-center">
-            <div class="container">
-                <form action="index.html" method="get">
-                    <input type="search" name="search-form-input" id="searchFormInput" placeholder="Type your keyword ...">
-                    <button type="submit"><i class="icon_search"></i></button>
-                </form>
-            </div>
-        </div>
+    <!-- Top Header Area Start -->
+    <div class="top-header-area">
+        <div class="container">
+            <div class="row">
 
-        <!-- Top Header Area Start -->
-        <div class="top-header-area">
-            <div class="container">
-                <div class="row">
+                <div class="col-6">
+                    <div class="top-header-content">
+                        <a href="tel:+919540482228"><i class="icon_phone" onclick="myphonealert()"></i> <span>9540-48-2228 / 9540-48-2229</span></a>
+                        <a href="#"><i class="icon_mail" onclick="myemailalert()"></i> <span>jsgardens01@gmail.com</span></a>
+                    </div>
+                </div>
 
-                    <div class="col-6">
-                        <div class="top-header-content">
-                            <a href="#"><i class="icon_phone"></i> <span>(123) 456-789-1230</span></a>
-                            <a href="#"><i class="icon_mail"></i> <span>info.colorlib@gmail.com</span></a>
+                <div class="col-6">
+                    <div class="top-header-content">
+                        <!-- Top Social Area -->
+                        <div class="top-social-area ml-auto">
+                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            {#                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>#}
+                            {#                                <a href="#"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>#}
+                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                         </div>
                     </div>
+                </div>
 
-                    <div class="col-6">
-                        <div class="top-header-content">
-                            <!-- Top Social Area -->
-                            <div class="top-social-area ml-auto">
-                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                            </div>
-                        </div>
+            </div>
+        </div>
+    </div>
+    <!-- Top Header Area End -->
+
+    <!-- Main Header Start -->
+    <div class="main-header-area">
+        <div class="classy-nav-container breakpoint-off">
+            <div class="container">
+                <!-- Classy Menu -->
+                <nav class="classy-navbar justify-content-between" id="robertoNav">
+
+                    <!-- Logo -->
+
+                    <a class="nav-brand" href="{% url "index" %}" >
+                        {#                        img src="{% static "img/core-img/canva_logo.png" %}" alt="">#}
+                        <h1 style="color: #800020;"> JS Garden</h1>
+
+                    </a>
+
+
+                    <!-- Navbar Toggler -->
+                    <div class="classy-navbar-toggler">
+                        <span class="navbarToggler"><span></span><span></span><span></span></span>
                     </div>
 
-                </div>
+                    <!-- Menu -->
+                    <div class="classy-menu">
+                        <!-- Menu Close Button -->
+                        <div class="classycloseIcon">
+                            <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                        </div>
+                        <!-- Nav Start -->
+                        <div class="classynav">
+                            <ul id="nav">
+                                <li class="active"><a href="{% url 'index' %}">Home</a></li>
+{#                                <li><a href="#gallery">Gallery</a></li>#}
+{#                                <li><a href="#packages">Packages</a></li>#}
+
+                                {#                                    <li><a href="#">Pages</a>#}
+                                {#                                        <ul class="dropdown">#}
+                                {#                                            <li><a href="./index.html">- Home</a></li>#}
+                                {#                                            <li><a href="room.html">- Rooms</a></li>#}
+                                {#                                            <li><a href="single-room.html">- Single Rooms</a></li>#}
+                                {#                                            <li><a href="about.html">- About Us</a></li>#}
+                                {#                                            <li><a href="blog.html">- Blog</a></li>#}
+                                {#                                            <li><a href="single-blog.html">- Single Blog</a></li>#}
+                                {#                                            <li><a href="contact.html">- Contact</a></li>#}
+                                {#                                            <li><a href="#">- Dropdown</a>#}
+                                {#                                                <ul class="dropdown">#}
+                                {#                                                    <li><a href="#">- Dropdown Item</a></li>#}
+                                {#                                                    <li><a href="#">- Dropdown Item</a></li>#}
+                                {#                                                    <li><a href="#">- Dropdown Item</a></li>#}
+                                {#                                                    <li><a href="#">- Dropdown Item</a></li>#}
+                                {#                                                </ul>#}
+                                {#                                            </li>#}
+                                {#                                        </ul>#}
+                                {#                                    </li>#}
+{#                                <li><a href="#location">Location</a></li>#}
+                                <li><a href="{% url 'contactus' %}">Contact</a></li>
+{#                                <li><a href="#aboutus">About Us</a></li>#}
+                            </ul>
+
+                            <!-- Search -->
+                            {#                                <div class="search-btn ml-4">#}
+                            {#                                    <i class="fa fa-search" aria-hidden="true"></i>#}
+                            {#                                </div>#}
+
+                            <!-- Book Now -->
+                            {#                                <div class="book-now-btn ml-3 ml-lg-5">#}
+                            {#                                    <a href="#">Book Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>#}
+                            {#                                </div>#}
+                        </div>
+                        <!-- Nav End -->
+                    </div>
+                </nav>
             </div>
         </div>
-        <!-- Top Header Area End -->
+    </div>
+</header>
+<!-- Header Area End -->
 
-        <!-- Main Header Start -->
-        <div class="main-header-area">
-            <div class="classy-nav-container breakpoint-off">
-                <div class="container">
-                    <!-- Classy Menu -->
-                    <nav class="classy-navbar justify-content-between" id="robertoNav">
-
-                        <!-- Logo -->
-                        <a class="nav-brand" href="index.html"><img src="{% static "img/core-img/logo.png" %}" alt=""></a>
-
-                        <!-- Navbar Toggler -->
-                        <div class="classy-navbar-toggler">
-                            <span class="navbarToggler"><span></span><span></span><span></span></span>
-                        </div>
-
-                        <!-- Menu -->
-                        <div class="classy-menu">
-                            <!-- Menu Close Button -->
-                            <div class="classycloseIcon">
-                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
-                            </div>
-                            <!-- Nav Start -->
-                            <div class="classynav">
-                                <ul id="nav">
-                                    <li class="active"><a href="./index.html">Home</a></li>
-                                    <li><a href="room.html">Pricing</a></li>
-                                    <li><a href="about.html">About Us</a></li>
-{#                                    <li><a href="#">Pages</a>#}
-{#                                        <ul class="dropdown">#}
-{#                                            <li><a href="./index.html">- Home</a></li>#}
-{#                                            <li><a href="room.html">- Rooms</a></li>#}
-{#                                            <li><a href="single-room.html">- Single Rooms</a></li>#}
-{#                                            <li><a href="about.html">- About Us</a></li>#}
-{#                                            <li><a href="blog.html">- Blog</a></li>#}
-{#                                            <li><a href="single-blog.html">- Single Blog</a></li>#}
-{#                                            <li><a href="contact.html">- Contact</a></li>#}
-{#                                            <li><a href="#">- Dropdown</a>#}
-{#                                                <ul class="dropdown">#}
-{#                                                    <li><a href="#">- Dropdown Item</a></li>#}
-{#                                                    <li><a href="#">- Dropdown Item</a></li>#}
-{#                                                    <li><a href="#">- Dropdown Item</a></li>#}
-{#                                                    <li><a href="#">- Dropdown Item</a></li>#}
-{#                                                </ul>#}
-{#                                            </li>#}
-{#                                        </ul>#}
-{#                                    </li>#}
-                                    <li><a href="blog.html">News</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
-                                </ul>
-
-                                <!-- Search -->
-{#                                <div class="search-btn ml-4">#}
-{#                                    <i class="fa fa-search" aria-hidden="true"></i>#}
-{#                                </div>#}
-
-                                <!-- Book Now -->
-{#                                <div class="book-now-btn ml-3 ml-lg-5">#}
-{#                                    <a href="#">Book Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>#}
-{#                                </div>#}
-                            </div>
-                            <!-- Nav End -->
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- Header Area End -->
 <br><br><br>
 
     <h1 align="center">Thank you for reaching out to us, We will get back to you very soon.</h1>

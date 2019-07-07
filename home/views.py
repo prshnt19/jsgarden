@@ -3,7 +3,7 @@ from django.shortcuts import render
 # Create your views here.
 from django.shortcuts import render,redirect
 from django.http import HttpResponse
-from .forms import ContactForm
+from .forms import ContactForm,ContactusForm
 from twilio.rest import Client
 from django.conf import settings
 from django.contrib import messages
@@ -39,3 +39,28 @@ def index(request):
             return render(request, "success.html")
 
     return render(request, "index.html")
+
+def contactus(request):
+    if request.method == 'POST':
+        form = ContactusForm(request.POST)
+        if form.is_valid():
+            name = form.cleaned_data['name']
+            contact = form.cleaned_data['contact']
+            email = form.cleaned_data['email']
+            message = form.cleaned_data['message']
+
+            contact=str(contact)
+
+            form_query = "Name-"+name+"\n"+"Contact Number-"+contact+"\n"+'Email-'+email + '\n'+'Message-' + message
+
+            client = Client(settings.TWILIO_ACCOUNT_SID, settings.TWILIO_AUTH_TOKEN)
+            response = client.messages.create(
+                body=form_query,
+                to='+919919098817', from_=settings.TWILIO_PHONE_NUMBER)
+            print (form)
+            return render(request, "success.html")
+
+    return render(request, "contact.html")
+
+
+

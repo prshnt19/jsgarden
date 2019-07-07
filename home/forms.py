@@ -8,3 +8,11 @@ class ContactForm(forms.Form):
     email=forms.EmailField(required=False)
     package = forms.CharField()
     message = forms.CharField(widget=forms.Textarea,required=False)
+
+class ContactusForm(forms.Form):
+    name = forms.CharField(max_length=100)
+    contact = forms.IntegerField()
+
+    email=forms.EmailField(required=False)
+
+    message = forms.CharField(widget=forms.Textarea,required=False)
