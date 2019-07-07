@@ -16,7 +16,7 @@ def index(request):
             contact = form.cleaned_data['contact']
             no_of_guests = form.cleaned_data['no_of_guests']
             date = form.cleaned_data['eventdate']
-            email =  form.cleaned_data['email']
+            email = form.cleaned_data['email']
             package= form.cleaned_data['package']
             message = form.cleaned_data['message']
 
