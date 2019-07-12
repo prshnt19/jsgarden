@@ -4,6 +4,63 @@
     <list default="true" id="1c6444b7-06fa-46b5-8d53-8fd856ea7553" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/diamond.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/gold-plain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-img/silver-plain.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,45 +87,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/home/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="670" column="40" selection-start-line="670" selection-start-column="40" selection-end-line="670" selection-end-column="40" />
-              <folding>
-                <element signature="n#style#0;n#h4#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h3#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#button#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h2#0;n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#32042#32048#0#HTML" expanded="true" />
-                <element signature="n#style#0;n#h2#0;n#div#1;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#0;n#li#2;n#ul#0;n#div#1;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#33825#33831#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="66" column="33" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home/static/img/bg-img/diamond.png">
+        <entry file="file://$PROJECT_DIR$/home/static/img/bg-img/1.jpg">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home/static/img/bg-img/9.jpg">
+        <entry file="file://$PROJECT_DIR$/home/static/img/bg-img/5.jpg">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
@@ -78,32 +103,38 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home/static/img/bg-img/6.jpg">
+        <entry file="file://$PROJECT_DIR$/home/static/img/bg-img/9.jpg">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home/static/img/core-img/logo.png">
+        <entry file="file://$PROJECT_DIR$/home/static/img/bg-img/10.jpg">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home/static/img/core-img/signature.png">
+        <entry file="file://$PROJECT_DIR$/home/static/img/bg-img/11.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/home/static/img/bg-img/4.jpg">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home/static/img/bg-img/test2.jpg">
+        <entry file="file://$PROJECT_DIR$/home/static/img/bg-img/12.jpg">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/garden/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-639">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/home/static/img/bg-img/13.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home/static/img/bg-img/14.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -314,22 +345,22 @@
       <workItem from="1562150022097" duration="12558000" />
       <workItem from="1562598183250" duration="2311000" />
       <workItem from="1562603543993" duration="4812000" />
-      <workItem from="1562918446956" duration="13432000" />
+      <workItem from="1562918446956" duration="15981000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54835000" />
+    <option name="totallyTimeSpent" value="57384000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="31" width="1920" height="1049" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.14323749" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.14323749" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.33116883" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.33116883" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Python Console" order="4" />
@@ -375,46 +406,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/home/templates/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2070">
-          <caret line="138" column="67" selection-start-line="138" selection-start-column="67" selection-end-line="138" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/templates/single-room.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1835">
-          <caret line="138" column="89" selection-start-line="138" selection-start-column="89" selection-end-line="138" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/templates/single-blog.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/static/img/bg-img/marriage_1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/static/img/bg-img/16.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/static/img/bg-img/17.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/home/static/img/js/045.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -457,9 +448,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/static/img/bg-img/13.jpg">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/home/static/style.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -511,27 +499,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/static/img/bg-img/1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/home/templates/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
           <caret line="358" column="44" selection-start-line="358" selection-start-column="44" selection-end-line="358" selection-end-column="44" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/static/img/bg-img/4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/static/img/bg-img/10.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/static/img/bg-img/3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/static/img/bg-img/2.jpg">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/home/static/img/bg-img/test2.jpg">
       <provider selected="true" editor-type-id="images" />
@@ -544,18 +517,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home/static/img/core-img/signature.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/static/img/core-img/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/static/img/bg-img/9.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/static/img/bg-img/8.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/static/img/bg-img/6.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/home/static/img/bg-img/diamond.png">
@@ -571,10 +532,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/home/static/img/core-img/favicon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/static/img/core-img/logo2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/static/img/core-img/js_logo_1.png.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/static/img/core-img/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/home/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="670" column="40" selection-start-line="670" selection-start-column="40" selection-end-line="670" selection-end-column="40" />
+        <state relative-caret-position="360">
+          <caret line="183" column="55" lean-forward="true" selection-start-line="183" selection-start-column="55" selection-end-line="183" selection-end-column="55" />
           <folding>
             <element signature="n#style#0;n#h4#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h3#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -588,6 +561,48 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/static/img/bg-img/2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/static/img/bg-img/3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/static/img/bg-img/6.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/static/img/bg-img/7.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/static/img/bg-img/8.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/static/img/bg-img/9.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/static/img/bg-img/10.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/static/img/bg-img/11.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/static/img/bg-img/12.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/static/img/bg-img/13.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/static/img/bg-img/14.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/static/img/bg-img/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/static/img/bg-img/5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/static/img/bg-img/4.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
