@@ -36,12 +36,12 @@ def index(request):
             client = Client(settings.TWILIO_ACCOUNT_SID, settings.TWILIO_AUTH_TOKEN)
             response = client.messages.create(
                 body=final,
-                to='+919919098817', from_=settings.TWILIO_PHONE_NUMBER)
+                to='+919540482228', from_=settings.TWILIO_PHONE_NUMBER)
 
             subject = 'Enquiry on Jsgardens.in'
 
             email_from = settings.EMAIL_HOST_USER
-            recipient_list = ['abhi24061997@gmail.com']
+            recipient_list = ['jsluxurybanquet@gmail.com']
             send_mail(subject, final, email_from, recipient_list)
 
             return render(request, "success.html")
@@ -64,12 +64,12 @@ def contactus(request):
             client = Client(settings.TWILIO_ACCOUNT_SID, settings.TWILIO_AUTH_TOKEN)
             response = client.messages.create(
                 body=form_query,
-                to='+919919098817', from_=settings.TWILIO_PHONE_NUMBER)
+                to='+919540482228', from_=settings.TWILIO_PHONE_NUMBER)
 
             subject = 'Enquiry on Jsgardens.in'
 
             email_from = settings.EMAIL_HOST_USER
-            recipient_list = ['abhi24061997@gmail.com']
+            recipient_list = ['jsluxurybanquet@gmail.com']
             send_mail(subject, form_query, email_from, recipient_list)
 
 
